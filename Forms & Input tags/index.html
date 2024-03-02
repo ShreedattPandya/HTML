@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms&InputTags</title>
+</head>
+<body>
+    <p>Form to apply Sigma Web Dev Course</p>
+    <form action="post">
+        <div>
+            <label for="username">Enter username</label>    
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+        <div>
+            What are you? &nbsp;&nbsp;
+            <label for="radio">Student</label>     
+            <input type="radio" id="Student" name="Who" value="Student" >
+            <label for="radio">Job</label>     
+            <input type="radio" id="Job" name="Who" value="Job">
+        </div>
+        <div>
+            Have you subscribed?
+            <input type="checkbox" id="Subscriber" name="Subscribe" value="Subscriber">
+            <label for="Subscribe">Subscribe</label>
+            <input type="checkbox" id="Bell" name="Subscribe"  value="Bell">
+            <label for="Bell">Bell Icon</label>
+        </div>
+        <div>
+            <label for="comments">Any Comments</label>
+            <br>
+            <textarea name="comments" id="comments" cols="30" rows="1"></textarea>
+        </div>
+        <div>
+            Select State: &nbsp;
+            <select name="fruits">
+                <option value="Baroda">Baroda</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="NCR">NCR</option>
+          </select>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
